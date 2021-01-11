@@ -8,6 +8,10 @@
   margin-left: auto;
   margin-right: auto;
 
+  box-shadow: 4px 4px 4px 0px rgba(125, 125, 125, 0.75);
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(125, 125, 125, 0.75);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(125, 125, 125, 0.75);
+
   .cardHeading {
     color: $veryDarkBlue;
     font-size: var(--card-heading-fs);

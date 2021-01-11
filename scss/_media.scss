@@ -1,0 +1,84 @@
+@media (min-width: 46.25em) {
+  .container {
+    padding: 5.625rem 2rem 4.875rem 2rem;
+  }
+  .wrapper {
+    min-height: 15.625rem;
+    max-height: 15.625rem;
+    min-width: 21.875rem;
+    max-width: 21.875rem;
+  }
+  header {
+    .heading1 {
+      margin-bottom: 0.875rem;
+    }
+    .heading2 {
+      margin-bottom: 1.625rem;
+    }
+    p {
+      margin-bottom: 4.125rem;
+    }
+  }
+
+  main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 21.875rem);
+    grid-template-rows: repeat(2, 15.625rem);
+    grid-template-areas:
+      "sup tmb"
+      "kar cal";
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+
+    .supervisor {
+      grid-area: sup;
+    }
+    .teamBuilder {
+      grid-area: tmb;
+    }
+    .karma {
+      grid-area: kar;
+    }
+    .calculator {
+      grid-area: cal;
+    }
+    .supervisorDiv,
+    .karmaDiv,
+    .calculatorDiv,
+    .teamBuilderDiv {
+      margin-bottom: 0;
+    }
+  }
+}
+@media (min-width: 70em) {
+  :root {
+    --main-heading-fs: 1.75rem;
+  }
+  main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 21.875rem);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "e1  tmb e2"
+      "sup tmb cal"
+      "sup kar cal"
+      "e3  kar e4";
+    // column-gap: 1.875rem;
+    // row-gap: 1.875rem;
+
+    .supervisor {
+      grid-area: sup;
+    }
+    .calculator {
+      grid-area: cal;
+    }
+    .teamBuilder {
+      grid-area: tmb;
+    }
+    .karma {
+      grid-area: kar;
+    }
+  }
+}

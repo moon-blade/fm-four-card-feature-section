@@ -1,0 +1,25 @@
+// flexbox
+.flex {
+  display: flex;
+
+  &-fd-c {
+    flex-direction: column;
+  }
+
+  &-fd-r {
+    flex-direction: row;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+// body container
+.container {
+  padding: 5.75rem 2rem 4.875rem 2rem;
+}

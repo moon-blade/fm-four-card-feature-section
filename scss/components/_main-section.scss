@@ -1,0 +1,48 @@
+.wrapper {
+  min-height: 14rem;
+  max-height: 14rem;
+  min-width: 19.5rem;
+  max-width: 19.5rem;
+  background-color: #fff;
+  padding: 1.75rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  .cardHeading {
+    color: $veryDarkBlue;
+    font-size: var(--card-heading-fs);
+    margin-bottom: 0.625rem;
+  }
+
+  .cardPar {
+    color: $grayishBlue;
+    font-size: var(--card-par-fs);
+  }
+
+  img {
+    height: 3.75rem;
+    margin-top: 2.5rem;
+    margin-left: 12.5rem;
+  }
+}
+
+.supervisorDiv {
+  border-top: 5px solid $cyan;
+  border-radius: 5px;
+  margin-bottom: 1.625rem;
+}
+.teamBuilderDiv {
+  border-top: 5px solid $red;
+  border-radius: 5px;
+  margin-bottom: 1.625rem;
+}
+.karmaDiv {
+  border-top: 5px solid $orange;
+  border-radius: 5px;
+  margin-bottom: 1.625rem;
+}
+.calculatorDiv {
+  border-top: 5px solid $blue;
+  border-radius: 5px;
+  margin-bottom: 1.625rem;
+}
